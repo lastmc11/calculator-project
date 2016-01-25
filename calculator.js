@@ -128,9 +128,29 @@ $(document).ready(function()
 
 	});
 });
-
+function multiply(x,y)
+{
+return x*y
+}
 function divide(x,y)
 {
-  return x/y;
+ return x/y
 }
+function subtract(x,y)
+{
+	
+return x-y
+
+}
+
+function add(x,y)
+{
+  return x+y;
+}
+
+function power(x,y)
+{
+	return Math.pow(4, 3);
+}
+
 // You must implement the rest of the functions here.
